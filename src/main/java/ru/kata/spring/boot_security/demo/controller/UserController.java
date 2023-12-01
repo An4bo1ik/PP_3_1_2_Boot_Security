@@ -24,7 +24,7 @@ public class UserController {
     }
 
     @GetMapping("/index")
-    public String indexPage(Model model) {
+    public String indexPage() {
         return "/index";
     }
 
